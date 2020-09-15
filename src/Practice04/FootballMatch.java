@@ -30,36 +30,6 @@ class FootballMatch extends JFrame {
         add(lbl1);
         add(lbl2);
         add(lbl3);
-        /*addMouseListener(new MouseListener() {
-            @Override
-            public void mouseClicked(MouseEvent e) {
-               //JButton button = (JButton) e.getSource();
-             //   if (button == but1)
-             //   {
-
-                    t1++;
-                    lbl1.setText("Result: " + t1 + " X " + t2);
-                    lbl1.repaint();
-                //}
-
-              //  if (button == but2)
-                //{
-                 //   t2++;
-                //}
-            }
-
-            @Override
-            public void mousePressed(MouseEvent e) {}
-
-            @Override
-            public void mouseReleased(MouseEvent e) {}
-
-            @Override
-            public void mouseEntered(MouseEvent e) {}
-
-            @Override
-            public void mouseExited(MouseEvent e) {}
-        });*/
 
         setVisible(true);
         but1.addActionListener(new FootballMatch.buttonClickListener1(lbl1, lbl2));
